@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Estilo/CSS.css" />
+    <link rel="icon" href="Imagens/javascript.png" />
+    <title>Atividade JavaScript</title>
+</head>
+<body>
+    <header>
+        Funcionalidades JavaScript
+    </header>
+    <main>
+        <div class="container superior">
+            <div id="div_numeros">
+                <input type="text" id="txt_display" disabled />
+                <span id="num_1" class="bt_num" >1</span>
+                <span id="num_2" class="bt_num" >2</span>
+                <span id="num_3" class="bt_num" >3</span>
+                <span id="num_4" class="bt_num" >4</span>
+                <span id="num_5" class="bt_num" >5</span>
+                <span id="num_6" class="bt_num" >6</span>
+                <span id="num_7" class="bt_num" >7</span>
+                <span id="num_8" class="bt_num" >8</span>
+                <span id="num_9" class="bt_num" >9</span>
+                <span id="num_0" class="bt_num" >0</span>
+            </div>
+            <div id="div_calc">
+                <img id="bt_somar" src="Imagens/Somar.png" class="botoes" data-oper="+" alt="Somar"/>
+                <img id="bt_subtrair" src="Imagens/Subtrair.png" class="botoes" data-oper="-" alt="Subtrair"/>
+                <img id="bt_multiplicar" src="Imagens/Multiplicar.png" class="botoes" data-oper="*" alt="Multiplicar"/>
+                <img id="bt_calcular" src="Imagens/Calcular.png" alt="Calcular"/>
+                <span id="bt_limpar">Limpar</span>
+            </div>     
+            <div id="div_conf_poligono">
+                Dimensões:
+                <br />
+                Largura:
+                <input type="number" id="num_largura" min="50" max="100" value="50" /> px
+                <br />
+                Altura:
+                <input type="number" id="num_altura" min="50" max="100" value="50" /> px
+            </div>
+            <div>
+                <div id="div_poligono">
+
+                </div>
+                <p id="p_perimetro">
+
+                </p>
+               
+            </div>
+            
+        </div>
+
+
+        <div class="container inferior">
+            
+            <div id="">
+                Preencha 2 valores:
+                <br />
+                Valor 1:
+                <input id="valor1" type="number"  min="1" max="50"  />
+                <br />
+                Valor 2:
+                <input id="valor2" type="number" min="1" max="50"  />
+            </div>
+                
+            <div>
+                <input type="button" id="bt_som" value="Somar" />
+                <br />
+                <input type="button" id="bt_multi" value="Multiplicar" />   
+                <br />
+                <br />
+                Resultado:
+                <input id="resultado" type="text" size="5" disabled />  
+            </div>  
+
+            <div>
+                <p><a id="p_aumentar">Aumentar</a></p>
+                <p><a id="p_diminuir">Diminuir</a></p>
+            </div>
+
+            <div>
+               <img id="img_size" src="Imagens/clipboard.png" alt="">
+            </div>
+            
+        </div>
+
+    </main>
+       
+    <script src="Scripts/jscript.js"></script>        
+</body>
+</html>
